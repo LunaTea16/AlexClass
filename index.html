@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    
     <title>PANDORA PROJECT</title>
 </head>
 
@@ -52,28 +53,36 @@
                 <div class="upper-image">
                     <img src="/Photo1.jpg">
                     <p>צמידי בנגל, כסף וטניס</p>
+                    <a href="#" id="button" class="button">הזמן</a>
+                                          
                 </div>
                 <div class="upper-image">
                     <img src="/Photo2.jpg">
                     <p>צ'ארמס, קליפסים ותליונים בעיצובים</p>
+                    <a href="#" id="button1" class="button1">הזמן</a>
                 </div>
                 <div class="upper-image">
                     <img src="/Photo3.jpg">
                     <p>טבעות כסף וזהב</p>
+                    <a href="#" id="button2" class="button2">הזמן</a>
                 </div>
                 <div class="bottom-image">
                     <img src="/Photo4.jpg">
                     <p>שרשראות ותליונים</p>
+                    <a href="#" id="button3" class="button3">הזמן</a>
                 </div>
                 <div class="bottom-image">
                     <img src="/Photo5.jpg">
                     <p>עגילי כסף וזהב</p>
+                    <a href="#" id="button4" class="button4">הזמן</a>
                 </div>
                 <div class="bottom-image" >
                     <h3>עבור לכל הקולקציה..</h3>
                 </div>
             </div>
+
     </section2>
+
         <section3>
             <div class="form">
                 <form action="/index.html">
@@ -96,8 +105,87 @@
            
         </div>>
 
+<div class="bg-modal">
+    <div class="modal-content">
+        <div class="close">+</div>
+        <p>תיכנס לאתר והזמן!</p>
+        <form action="">
+            <div class="inputPopUp">
+            <input type="text" placeholder='אימייל'>
+            <input type="text" placeholder='סיסמא'>
+            <a href=""class="button">התחברות</a>
+            </div>
+        </form>
+    </div>
+</div>
     </div>
 
 </body>
 
 </html>
+<script>
+document.getElementById('button').addEventListener('click',
+function(){
+    document.querySelector('.bg-modal').style.display = 'flex';
+});
+
+document.querySelector('.close').addEventListener('click',
+function(){
+    document.querySelector('.bg-modal').style.display = 'none';
+});
+</script>
+<script>
+    document.getElementById('button1').addEventListener('click',
+    function(){
+        document.querySelector('.bg-modal').style.display = 'flex';
+    });
+    
+    document.querySelector('.close').addEventListener('click',
+    function(){
+        document.querySelector('.bg-modal').style.display = 'none';
+    });
+    </script>
+    <script>
+        document.getElementById('button1').addEventListener('click',
+        function(){
+            document.querySelector('.bg-modal').style.display = 'flex';
+        });
+        
+        document.querySelector('.close').addEventListener('click',
+        function(){
+            document.querySelector('.bg-modal').style.display = 'none';
+        });
+        </script>
+        <script>
+    document.getElementById('button2').addEventListener('click',
+    function(){
+        document.querySelector('.bg-modal').style.display = 'flex';
+    });
+    
+    document.querySelector('.close').addEventListener('click',
+    function(){
+        document.querySelector('.bg-modal').style.display = 'none';
+    });
+    </script>
+    <script>
+        document.getElementById('button3').addEventListener('click',
+        function(){
+            document.querySelector('.bg-modal').style.display = 'flex';
+        });
+        
+        document.querySelector('.close').addEventListener('click',
+        function(){
+            document.querySelector('.bg-modal').style.display = 'none';
+        });
+        </script>
+        <script>
+            document.getElementById('button4').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display = 'flex';
+            });
+            
+            document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display = 'none';
+            });
+            </script>
